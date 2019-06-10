@@ -1,0 +1,25 @@
+uuid: 0f575009-613e-4c80-9e25-e1ea65c6d951
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.recipe_yield_amount
+    - node.type.recipe
+_core:
+  default_config_hash: EPZ8puqrVRv3uR4u69oAb4ASHD-eXoVusxlqDT7ZUXc
+id: node.recipe.recipe_yield_amount
+field_name: recipe_yield_amount
+entity_type: node
+bundle: recipe
+label: 'Yield amount'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

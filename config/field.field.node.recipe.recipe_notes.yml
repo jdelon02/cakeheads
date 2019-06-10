@@ -1,0 +1,23 @@
+uuid: 9ab94199-f132-4611-9b81-f3e5e8cf421f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.recipe_notes
+    - node.type.recipe
+  module:
+    - text
+_core:
+  default_config_hash: YBQnwXw6dRtdTDhYX0FhaBXrh2LfgjAklxsRLkFsW4c
+id: node.recipe.recipe_notes
+field_name: recipe_notes
+entity_type: node
+bundle: recipe
+label: Notes
+description: 'Optional. Describe a great dining experience relating to this recipe, or note which wine or other dishes complement this recipe.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
