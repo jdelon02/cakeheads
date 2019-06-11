@@ -1,0 +1,14 @@
+uuid: 1630ea65-1390-46b7-910b-52e82b8d3b6a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+id: just_testing_paragraph
+label: 'just testing paragraph'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

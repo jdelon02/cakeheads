@@ -1,0 +1,32 @@
+uuid: 9843b61e-ba76-45cd-bc48-db26a3b3caad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_para_ref
+    - node.type.dis_is_a_builder_test
+  module:
+    - entity_reference_revisions
+id: node.dis_is_a_builder_test.field_para_ref
+field_name: field_para_ref
+entity_type: node
+bundle: dis_is_a_builder_test
+label: 'para ref'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      from_library:
+        weight: 3
+        enabled: false
+      just_testing_paragraph:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

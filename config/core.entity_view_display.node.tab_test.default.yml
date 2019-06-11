@@ -1,0 +1,102 @@
+uuid: 7653fb79-e9f9-4474-828e-e3248e07e140
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tab_test.body
+    - field.field.node.tab_test.field_text_field_1
+    - field.field.node.tab_test.field_text_field_2
+    - node.type.tab_test
+  module:
+    - field_group
+    - text
+    - user
+third_party_settings:
+  field_group:
+    group_test_tabs:
+      children:
+        - group_tab_1
+        - group_tab_2
+        - group_tab_3
+      parent_name: ''
+      weight: 1
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: 'Test Tabs'
+      region: content
+    group_tab_1:
+      children:
+        - body
+      parent_name: group_test_tabs
+      weight: 20
+      format_type: tab
+      format_settings:
+        description: ''
+        formatter: open
+        id: ''
+        classes: ''
+      label: 'Tab 1'
+      region: content
+    group_tab_2:
+      children:
+        - field_text_field_1
+      parent_name: group_test_tabs
+      weight: 22
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+      label: 'Tab 2'
+      region: content
+    group_tab_3:
+      children:
+        - field_text_field_2
+      parent_name: group_test_tabs
+      weight: 24
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+      label: 'Tab 3'
+      region: content
+id: node.tab_test.default
+targetEntityType: node
+bundle: tab_test
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 21
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_text_field_1:
+    weight: 23
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_text_field_2:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

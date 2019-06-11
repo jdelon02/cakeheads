@@ -1,0 +1,22 @@
+uuid: ad6c1402-f032-41dc-9308-3f219b8e07bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.just_testing_paragraph.field_test_media
+    - paragraphs.paragraphs_type.just_testing_paragraph
+id: paragraph.just_testing_paragraph.default
+targetEntityType: paragraph
+bundle: just_testing_paragraph
+mode: default
+content:
+  field_test_media:
+    type: entity_reference_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden: {  }

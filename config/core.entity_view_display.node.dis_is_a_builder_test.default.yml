@@ -1,0 +1,78 @@
+uuid: f5206488-6975-4a64-8fab-ff135116be5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.dis_is_a_builder_test.body
+    - field.field.node.dis_is_a_builder_test.field_para_ref
+    - field.field.node.dis_is_a_builder_test.layout_builder__layout
+    - node.type.dis_is_a_builder_test
+  module:
+    - entity_reference_revisions
+    - layout_builder
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: true
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          f9ab015f-985b-4fbe-adf0-c85c06a5ad37:
+            uuid: f9ab015f-985b-4fbe-adf0-c85c06a5ad37
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:dis_is_a_builder_test:links'
+            additional: {  }
+            weight: 0
+          2c88a100-3113-4052-b520-20d601ab798e:
+            uuid: 2c88a100-3113-4052-b520-20d601ab798e
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:dis_is_a_builder_test:body'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+            additional: {  }
+            weight: 1
+        third_party_settings: {  }
+id: node.dis_is_a_builder_test.default
+targetEntityType: node
+bundle: dis_is_a_builder_test
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_para_ref:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  layout_builder__layout: true

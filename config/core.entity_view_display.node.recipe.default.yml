@@ -27,9 +27,9 @@ mode: default
 content:
   links:
     weight: 9
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   recipe_cook_time:
     weight: 3
     label: above
@@ -49,8 +49,8 @@ content:
     label: above
     settings:
       fraction_format: '{%d }%d&frasl;%d'
-      unit_display: 0
-      link: false
+      unit_display: 1
+      link: true
     third_party_settings: {  }
     type: ingredient_default
     region: content
@@ -84,14 +84,14 @@ content:
     region: content
   recipe_total_time:
     weight: 4
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   recipe_yield:
     weight: 1
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   recipe_yield_amount: true
   recipe_yield_unit: true

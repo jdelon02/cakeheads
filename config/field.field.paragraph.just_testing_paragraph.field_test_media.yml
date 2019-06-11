@@ -1,0 +1,28 @@
+uuid: 7b155a3e-21d4-4892-a638-0d121f0896ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_test_media
+    - media.type.image
+    - paragraphs.paragraphs_type.just_testing_paragraph
+id: paragraph.just_testing_paragraph.field_test_media
+field_name: field_test_media
+entity_type: paragraph
+bundle: just_testing_paragraph
+label: test_media
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

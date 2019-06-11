@@ -1,0 +1,22 @@
+uuid: 8101a5db-c0ab-4954-94a1-de812879a62a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.dis_is_a_builder_test
+  module:
+    - text
+id: node.dis_is_a_builder_test.body
+field_name: body
+entity_type: node
+bundle: dis_is_a_builder_test
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

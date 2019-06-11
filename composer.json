@@ -23,6 +23,7 @@
         "drupal/console": "^1",
         "drupal/core": "^8",
         "drupal/devel": "^2.0",
+        "drupal/eck": "^1.0",
         "drupal/entity_usage": "^2.0",
         "drupal/environment_indicator": "^3.5",
         "drupal/field_group": "^3.0",
