@@ -1,0 +1,9 @@
+uuid: 1676c64e-7fb8-45df-838d-8a025c78d620
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.components
+name: 'Body Component'
+type: body_component
+description: ''

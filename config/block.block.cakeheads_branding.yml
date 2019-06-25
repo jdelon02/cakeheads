@@ -1,0 +1,25 @@
+uuid: 92bb2b96-5ca4-48b7-98d5-f48c855d42c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cakeheads
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: cakeheads_branding
+theme: cakeheads
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

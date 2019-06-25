@@ -1,0 +1,20 @@
+uuid: 63fc14ed-306e-40ee-8d56-0aa106b0f991
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cakeheads
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: cakeheads_local_actions
+theme: cakeheads
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

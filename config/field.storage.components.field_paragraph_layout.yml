@@ -1,0 +1,19 @@
+uuid: 473ec928-8ec6-4e81-aefc-e0b1cdc5fdf7
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - entity_reference_display
+id: components.field_paragraph_layout
+field_name: field_paragraph_layout
+entity_type: components
+type: entity_reference_display
+settings: {  }
+module: entity_reference_display
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -27,6 +27,7 @@
         "drupal/devel": "^2.0",
         "drupal/ds": "^3.3",
         "drupal/eck": "^1.0",
+        "drupal/entity_reference_display": "^1.2",
         "drupal/entity_usage": "^2.0",
         "drupal/environment_indicator": "^3.5",
         "drupal/field_group": "^3.0",

@@ -1,0 +1,40 @@
+uuid: 74a2df1a-160c-4276-86ec-d326834b82e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.body_component
+    - field.field.components.body_component.field_paragraph
+    - field.field.components.body_component.field_paragraph_layout
+  module:
+    - paragraphs
+id: components.body_component.default
+targetEntityType: components
+bundle: body_component
+mode: default
+content:
+  field_paragraph:
+    type: paragraphs
+    weight: 3
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+    third_party_settings: {  }
+    region: content
+  field_paragraph_layout:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden: {  }

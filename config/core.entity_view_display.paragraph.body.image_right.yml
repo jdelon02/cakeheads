@@ -1,0 +1,52 @@
+uuid: ffce512f-e1b4-4293-970a-21b4e30808ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.image_right
+    - field.field.paragraph.body.field_body_media
+    - field.field.paragraph.body.field_body_text
+    - paragraphs.paragraphs_type.body
+  module:
+    - ds
+    - layout_builder
+    - text
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+  ds:
+    layout:
+      id: layout_twocol_section
+      library: layout_builder/twocol_section
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        column_widths: 50-50
+    regions:
+      first:
+        - field_body_text
+      second:
+        - field_body_media
+id: paragraph.body.image_right
+targetEntityType: paragraph
+bundle: body
+mode: image_right
+content:
+  field_body_media:
+    type: entity_reference_entity_view
+    weight: 1
+    region: second
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+  field_body_text:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: first
+hidden: {  }

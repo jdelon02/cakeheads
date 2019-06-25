@@ -1,0 +1,37 @@
+uuid: 3d7f7504-b060-42e1-82b6-582f32b6dd21
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.body_component
+    - field.storage.components.field_paragraph
+    - paragraphs.paragraphs_type.body
+  module:
+    - entity_reference_revisions
+id: components.body_component.field_paragraph
+field_name: field_paragraph
+entity_type: components
+bundle: body_component
+label: Paragraph
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      body: body
+    target_bundles_drag_drop:
+      body:
+        enabled: true
+        weight: 4
+      from_library:
+        weight: 5
+        enabled: false
+      just_testing_paragraph:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

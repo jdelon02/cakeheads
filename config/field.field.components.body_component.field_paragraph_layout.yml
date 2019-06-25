@@ -1,0 +1,26 @@
+uuid: 536214f5-37af-4f60-9026-01c430ecd502
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.body_component
+    - field.storage.components.field_paragraph_layout
+  module:
+    - entity_reference_display
+id: components.body_component.field_paragraph_layout
+field_name: field_paragraph_layout
+entity_type: components
+bundle: body_component
+label: 'Paragraph Layout'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  exclude:
+    default: default
+    image_left: image_left
+    image_right: image_right
+  negate: 1
+field_type: entity_reference_display

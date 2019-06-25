@@ -1,0 +1,22 @@
+uuid: bb70ee43-e22c-4b9b-b9a4-65b5f6896ce5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cakeheads
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: cakeheads_breadcrumbs
+theme: cakeheads
+region: navigation
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,40 @@
+uuid: 2935b9d5-f5cf-4c35-9630-cbdb10c368ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.body_component
+    - field.field.components.body_component.field_paragraph
+    - field.field.components.body_component.field_paragraph_layout
+  module:
+    - ds
+    - entity_reference_display
+third_party_settings:
+  ds:
+    layout:
+      id: layout_onecol
+      library: layout_discovery/onecol
+      disable_css: false
+      entity_classes: all_classes
+      settings: {  }
+    regions:
+      content:
+        - field_paragraph
+id: components.body_component.default
+targetEntityType: components
+bundle: body_component
+mode: default
+content:
+  field_paragraph:
+    type: entity_reference_display_default
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+      display_field: null
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_paragraph_layout: true
+  title: true

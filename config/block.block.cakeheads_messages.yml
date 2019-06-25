@@ -1,0 +1,22 @@
+uuid: 86bd2f96-5a42-4b2a-a9c2-1446f79de4cd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cakeheads
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: cakeheads_messages
+theme: cakeheads
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

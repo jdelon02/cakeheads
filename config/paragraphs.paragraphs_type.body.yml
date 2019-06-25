@@ -1,0 +1,14 @@
+uuid: 88857245-c191-4604-950b-7ea9df880e05
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+id: body
+label: Body
+icon_uuid: null
+description: 'Replacement for default body text, that leverages paragraphs and entity reference display to allow for defining layouts'
+behavior_plugins: {  }

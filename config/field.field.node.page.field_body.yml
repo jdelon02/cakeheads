@@ -1,0 +1,28 @@
+uuid: 76bed9b6-d5df-471c-8148-d9c6fee61176
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.body_component
+    - field.storage.node.field_body
+    - node.type.page
+id: node.page.field_body
+field_name: field_body
+entity_type: node
+bundle: page
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:components'
+  handler_settings:
+    target_bundles:
+      body_component: body_component
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference
