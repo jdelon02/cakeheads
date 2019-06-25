@@ -1,0 +1,6 @@
+name: cakeheads
+recipe: pantheon
+config:
+  framework: drupal8
+  site: cakeheads
+  id: 850de194-c5d8-4780-862d-4f92abea2247
