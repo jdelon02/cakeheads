@@ -1,0 +1,12 @@
+uuid: 37881ee5-fd35-4995-9af4-fe85cca21e29
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.eck_reference_test
+id: block_content.eck_reference_test.default
+targetEntityType: block_content
+bundle: eck_reference_test
+mode: default
+content: {  }
+hidden: {  }

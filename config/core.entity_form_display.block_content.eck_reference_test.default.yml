@@ -1,0 +1,20 @@
+uuid: 4c6d9dd7-888d-4d63-9d5f-6458f04e5e48
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.eck_reference_test
+id: block_content.eck_reference_test.default
+targetEntityType: block_content
+bundle: eck_reference_test
+mode: default
+content:
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

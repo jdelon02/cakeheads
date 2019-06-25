@@ -1,0 +1,8 @@
+uuid: bae1a83b-92bc-4c79-9f17-663804622f44
+langcode: en
+status: true
+dependencies: {  }
+id: eck_reference_test
+label: 'ECK Reference Test'
+revision: 0
+description: ''
