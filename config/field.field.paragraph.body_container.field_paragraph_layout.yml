@@ -1,0 +1,26 @@
+uuid: 9d3ba6a1-b66c-4347-a400-92323209a7b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_layout
+    - paragraphs.paragraphs_type.body_container
+  module:
+    - entity_reference_display
+id: paragraph.body_container.field_paragraph_layout
+field_name: field_paragraph_layout
+entity_type: paragraph
+bundle: body_container
+label: 'Paragraph Layout'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  exclude:
+    default: default
+    image_left: image_left
+    image_right: image_right
+  negate: 1
+field_type: entity_reference_display

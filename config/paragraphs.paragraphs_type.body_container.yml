@@ -1,0 +1,14 @@
+uuid: 9424994b-bffe-4401-9f5a-1f0810cec6eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+id: body_container
+label: 'Body Container'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }
