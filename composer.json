@@ -36,6 +36,7 @@
         "drupal/inline_entity_form": "^1.0",
         "drupal/insert_view": "^1.0",
         "drupal/libraries": "^3.0",
+        "drupal/menu_link_attributes": "^1.0",
         "drupal/module_filter": "^3.1",
         "drupal/paragraphs": "^1.5",
         "drupal/pathauto": "^1.3",
