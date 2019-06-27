@@ -2,6 +2,8 @@ framework:
   css:
     theme:
       css/style.css: {}
+      'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css': { type: external, minified: true }
+      '//fonts.googleapis.com/css?family=Titillium+Web': { type: external, minified: true }
 
 # Uncomment for LESS source JavaScript files.
 #  js:
