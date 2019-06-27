@@ -7,22 +7,7 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        {
-            "type": "package",
-            "package": {
-              "name": "fortawesome/fontawesome",
-              "version": "5.8.2",
-              "type": "drupal-library",
-              "dist": {
-                  "url": "https://use.fontawesome.com/releases/v5.8.1/fontawesome-free-5.8.1-web.zip",
-                  "type": "zip"
-              },
-              "require": {
-                  "composer/installers": "^1.2.0"
-              }
-          }
-       }
+        }
     ],
     "require": {
         "php": ">=7.0.8",
@@ -49,6 +34,8 @@
         "drupal/environment_indicator": "^3.5",
         "drupal/features": "^3.8",
         "drupal/field_group": "^3.0",
+        "drupal/fontawesome": "^2.13",
+        "drupal/fontawesome_menu_icons": "^1.5",
         "drupal/inline_entity_form": "^1.0",
         "drupal/insert_view": "^1.0",
         "drupal/libraries": "^3.0",
@@ -65,7 +52,6 @@
         "drupal/viewsreference": "^1.4",
         "drush-ops/behat-drush-endpoint": "^9.3",
         "drush/drush": "~8",
-        "fortawesome/fontawesome": "^5.8",
         "pantheon-systems/quicksilver-pushback": "~1",
         "rvtraveller/qs-composer-installer": "^1.1",
         "webflo/drupal-core-strict": "^8",
