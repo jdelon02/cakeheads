@@ -4,7 +4,7 @@ schemas:
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
-  url: 'http://cakeheads.lndo.site/themes/contrib/bootstrap/favicon.ico'
+  url: 'http://build-cakeheads.pantheonsite.io/themes/custom/cakeheads/favicon.ico'
   use_default: true
 features:
   comment_user_picture: true
@@ -15,3 +15,12 @@ logo:
   path: ''
   url: ''
   use_default: true
+table_responsive: '-1'
+navbar_position: fixed-top
+cdn_theme: bootstrap
+cdn_cache_ttl_versions: '604800'
+cdn_cache_ttl_themes: '604800'
+cdn_cache_ttl_assets: '0'
+cdn_cache_ttl_library: '0'
+reset_http_request_cache: ''
+table: ''

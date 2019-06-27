@@ -19,6 +19,7 @@ third_party_settings:
     regions:
       content:
         - field_body
+        - field_garden
 _core:
   default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
 id: node.page.default
@@ -27,7 +28,7 @@ bundle: page
 mode: default
 content:
   field_body:
-    weight: 1
+    weight: 0
     label: hidden
     settings:
       link: true

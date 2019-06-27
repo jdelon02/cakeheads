@@ -12,7 +12,7 @@ _core:
   default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
 id: cakeheads_account_menu
 theme: cakeheads
-region: navigation
+region: navigation_collapsible
 weight: -5
 provider: null
 plugin: 'system_menu_block:account'

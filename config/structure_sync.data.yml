@@ -1,0 +1,145 @@
+menus:
+  -
+    menu_name: social-media
+    title: Instagram
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 9e8f0355-b817-4b76-92d2-da64db97a66a
+  -
+    menu_name: social-media
+    title: Facebook
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 11328552-8ada-4b58-bfac-01ca1814c3a2
+  -
+    menu_name: social-media
+    title: YouTube
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 29522e05-2796-42d9-9576-193e8cf56ce3
+  -
+    menu_name: social-media
+    title: Pinterest
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: f3db82f2-82d5-4939-9efa-dc3adad893be
+  -
+    menu_name: footer
+    title: 'Cake Projects'
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: en
+    uuid: 703b3686-838f-4804-8345-898fcd9464fd
+  -
+    menu_name: footer
+    title: 'Lost Password?'
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-44'
+    langcode: en
+    uuid: 2cf3b2d0-1fd0-4b1f-8db2-88f3ceb5dfc4
+  -
+    menu_name: footer
+    title: Blog
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: en
+    uuid: 9c6ce183-05e4-4b7c-a95c-9ba6727c2a30
+  -
+    menu_name: footer
+    title: 'Sign Up'
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: en
+    uuid: 7e7f4f23-6884-43ec-8205-f3f6dd503002
+  -
+    menu_name: footer
+    title: Privacy
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-47'
+    langcode: en
+    uuid: d8c4936f-83ea-45ba-91d3-7c66007d8468
+  -
+    menu_name: footer
+    title: Terms
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-46'
+    langcode: en
+    uuid: f0763584-0715-4877-b597-0b203d65b7e7
+  -
+    menu_name: account
+    title: 'Cake Projects'
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: en
+    uuid: 8ca8ca55-35ba-4a56-8e17-0d8c6745dbc7
+  -
+    menu_name: account
+    title: 'McGreevy Blog'
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: en
+    uuid: 8c10887f-c7ae-4be6-b777-00b76df7cd19
